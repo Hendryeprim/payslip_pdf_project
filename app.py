@@ -97,7 +97,7 @@ def generate():
 
     return send_file(
         io.BytesIO(pdf_bytes),
-        download_name="payslip.pdf",
+        download_name='emp_name'.pdf,
         as_attachment=True
     )
 
